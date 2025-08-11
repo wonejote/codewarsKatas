@@ -1,5 +1,5 @@
 function digPow(n, p){
-  let digits = n.toString().split("");
+  let digits = n.toString(op).split("");
   digits = digits.map(a => Number(a));
 
   let suma = 0;
@@ -12,5 +12,5 @@ function digPow(n, p){
   return -1;
 
 }
-digPow(46288,3);
+
 console.log(digPow(46288,3))
